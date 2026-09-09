@@ -1,0 +1,57 @@
+{
+  "kind": "synthetic-public-examples",
+  "cases": [
+    {
+      "id": "website",
+      "input": {
+        "goal": "Build a responsive website that uses current GitHub data to rank noteworthy open-source developer tools and feature one project each day."
+      }
+    },
+    {
+      "id": "analysis-only",
+      "input": {
+        "goal": "Evaluate the feasibility of a daily open-source discovery website. Do not implement it."
+      }
+    },
+    {
+      "id": "research-implement",
+      "input": {
+        "goal": "Research current accessible form patterns, then implement the selected approach in this website."
+      }
+    },
+    {
+      "id": "read-only-audit",
+      "input": {
+        "goal": "Audit this repository. Strictly read-only: do not change files or run commands that mutate state.",
+        "tools": "workspace"
+      }
+    },
+    {
+      "id": "supplied-summary",
+      "input": {
+        "goal": "Summarize the supplied release notes for product managers.",
+        "context": "Synthetic notes: faster search, clearer filters, and improved keyboard navigation.",
+        "tools": "none"
+      }
+    },
+    {
+      "id": "portuguese-answer",
+      "input": {
+        "goal": "Write a concise launch announcement. Respond in Portuguese."
+      }
+    },
+    {
+      "id": "implementation-json",
+      "input": {
+        "goal": "Build an accessible feedback form and report the completed checks.",
+        "format": "json"
+      }
+    },
+    {
+      "id": "missing-dataset",
+      "input": {
+        "goal": "Analyze the customer-retention dataset and explain the strongest predictors."
+      }
+    }
+  ]
+}
