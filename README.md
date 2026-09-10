@@ -2,7 +2,9 @@
 
 Astra Prompt Studio turns a plain-language goal into a structured prompt for GPT-6 Astra. The interface is available in English and Portuguese, runs entirely in the browser, and does not send the user's task to an external API.
 
-**Live app:** https://astra-prompt-studio.eddienews.chatgpt.site/
+**Live demo:** [sable-valley-eyrb.here.now](https://sable-valley-eyrb.here.now/)
+
+[![Astra Prompt Studio demo](docs/astra-prompt-studio-demo.png)](https://sable-valley-eyrb.here.now/)
 
 ## Features
 
